@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".admin.form.PlumberFormActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Name"
+        android:background="@drawable/edit_border"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:imeOptions="actionNext"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edtname"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:layout_height="40dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Number"
+        android:background="@drawable/edit_border"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edtnumber"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:imeOptions="actionNext"
+
+        android:layout_height="40dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Address"
+        android:background="@drawable/edit_border"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edtaddress"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:imeOptions="actionNext"
+
+        android:paddingLeft="10dp"
+        android:layout_height="40dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Working Hourse"
+        android:background="@drawable/edit_border"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edtwork"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:imeOptions="actionDone"
+
+        android:paddingLeft="10dp"
+        android:layout_height="40dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:id="@+id/add"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:text="Add Plumber"
+        android:background="@drawable/design"/>
+</LinearLayout>

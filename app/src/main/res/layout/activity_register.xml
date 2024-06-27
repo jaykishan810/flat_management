@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:background="@drawable/elegancerecidency">
+
+    <EditText
+        android:id="@+id/edno1"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:hint="ENTER YOUR FULL NAME"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/edno2"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:hint="USERNAME"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:id="@+id/edno4"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="30dp"
+        android:maxLength="10"
+        android:gravity="center"
+        android:hint="ENTER YOUR CONTACT NUMBER"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/shape"
+        android:textColorHint="#FFFFFF"/>
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:hint="CREATE PASSWORD"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:id="@+id/edno5"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/shape"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edno3"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:hint="ENTER YOUR MAIL ID"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnans1"
+        android:text="REGISTER"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginLeft="105dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        android:background="@drawable/design"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Already Existing Member?"
+        android:textColor="#FFFFFF"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnans2"
+        android:text="LOG IN"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        android:background="@drawable/design"
+        android:textColor="#FFFFFF"/>
+
+
+</LinearLayout>
