@@ -1,0 +1,1 @@
+##Extract the zip file of these project and open the android studio and go to the open the file and select the project where you extract the project file and wait for some time and at last run the project.
